@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "578699687114",
+    "project_id": "colblindor2-7eead",
+    "storage_bucket": "colblindor2-7eead.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:578699687114:android:f11b224d6130ff1c877033",
+        "android_client_info": {
+          "package_name": "com.example.colblindor2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "578699687114-hip59q5uo24u4knl3q89r0nk828l937g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.colblindor2",
+            "certificate_hash": "33da20a51b9b4501497fe9da88edb248946f936d"
+          }
+        },
+        {
+          "client_id": "578699687114-q2k9bvj208f3nb95lq1d86ahuliqc900.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARA9dlYEc5wM7N5ipE1c-6Nh_o-pu2oik"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "578699687114-q2k9bvj208f3nb95lq1d86ahuliqc900.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
