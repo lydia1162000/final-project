@@ -11,8 +11,8 @@ class TFLiteHelper {
 
   static Future<String?> loadModel() async {
     return Tflite.loadModel(
-      model: "assets/color.tflite",
-      labels: "assets/color.txt",
+      model: "assets/model.tflite",
+      labels: "assets/labels.txt",
     );
   }
 

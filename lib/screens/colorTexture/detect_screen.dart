@@ -6,6 +6,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:percent_indicator/linear_percent_indicator.dart';
 
+import '../../utils/color_utils.dart';
 import '../colors.dart';
 import 'camera_helper.dart';
 
@@ -58,14 +59,14 @@ class _DetectScreenPageState extends State<DetectScreen>
     double width = MediaQuery.of(context).size.width;
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: f10,
+        backgroundColor: hexStringToColor("#8B25AF"),
         title: Center(
             child: Text(
           "Color Detection ",
           style: GoogleFonts.blackOpsOne(
               textStyle: TextStyle(
             color: Colors.white,
-            fontSize: 32,
+            fontSize: 28,
           )),
         )),
       ),
@@ -103,7 +104,7 @@ class _DetectScreenPageState extends State<DetectScreen>
         child: Container(
           height: 200.0,
           width: width,
-          color: f3,
+          color: hexStringToColor("#ece6ed"),
           child: outputs != null && outputs.isNotEmpty
               ? ListView.builder(
                   itemCount: outputs.length,
@@ -122,6 +123,7 @@ class _DetectScreenPageState extends State<DetectScreen>
                         AnimatedBuilder(
                             animation: _colorAnimController,
                             builder: (context, child) => LinearPercentIndicator(
+
                                   width: MediaQuery.of(context).size.width * 0.8,
                                   lineHeight: 14.0,
                                   percent: outputs[index].confidence!,

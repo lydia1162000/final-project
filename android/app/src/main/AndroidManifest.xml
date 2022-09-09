@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.colblindor2">
    <application
-        android:label="colblindor2"
+        android:label="colblindor"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
